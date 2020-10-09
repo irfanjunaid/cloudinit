@@ -1,0 +1,6 @@
+#cloud-config
+password: centos
+chpasswd: { expire: False }
+ssh_pwauth: True
+users:
+- default
