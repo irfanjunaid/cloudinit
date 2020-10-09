@@ -73,3 +73,7 @@ Usage: cloud-localds [ options ] output user-data [meta-data]
          -drive file=disk1.img,if=virtio -drive file=my-seed.img,if=virtio
     * ssh -p 2222 ubuntu@localhost
 ```
+## References:
+1. [Cloudinit docs](https://cloudinit.readthedocs.io/en/latest/index.html)
+2. [Ubuntu cloudinit](https://help.ubuntu.com/community/CloudInit)
+3. [Centos cloudinit](https://stafwag.github.io/blog/blog/2019/03/03/howto-use-centos-cloud-images-with-cloud-init/)
